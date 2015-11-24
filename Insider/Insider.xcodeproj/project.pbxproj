@@ -14,6 +14,7 @@
 		0A3808781BE8377900A6F6E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3808771BE8377900A6F6E9 /* Images.xcassets */; };
 		0A38087B1BE8377900A6F6E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3808791BE8377900A6F6E9 /* LaunchScreen.xib */; };
 		0A3808871BE8377A00A6F6E9 /* InsiderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3808861BE8377A00A6F6E9 /* InsiderTests.swift */; };
+		843F1ED61C03EEA200C95209 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843F1ED51C03EEA200C95209 /* CreateAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0A3808801BE8377900A6F6E9 /* InsiderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsiderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3808851BE8377A00A6F6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A3808861BE8377A00A6F6E9 /* InsiderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsiderTests.swift; sourceTree = "<group>"; };
+		843F1ED51C03EEA200C95209 /* CreateAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		0A38086D1BE8377900A6F6E9 /* Insider */ = {
 			isa = PBXGroup;
 			children = (
+				843F1ED51C03EEA200C95209 /* CreateAccount.swift */,
 				0A3808701BE8377900A6F6E9 /* AppDelegate.swift */,
 				0A3808721BE8377900A6F6E9 /* ViewController.swift */,
 				0A16FA5D1C017BF200CA93FB /* LoginViewController.swift */,
@@ -159,6 +162,7 @@
 		0A3808631BE8377900A6F6E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Joe Brandy";
 				TargetAttributes = {
@@ -218,6 +222,7 @@
 				0A16FA5E1C017BF200CA93FB /* LoginViewController.swift in Sources */,
 				0A3808731BE8377900A6F6E9 /* ViewController.swift in Sources */,
 				0A3808711BE8377900A6F6E9 /* AppDelegate.swift in Sources */,
+				843F1ED61C03EEA200C95209 /* CreateAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
